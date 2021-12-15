@@ -9,9 +9,17 @@ String bert = "Did Bert went to the Codersbay? Yes he did.";
 
 a) What is the value displayed by the expression `bert.length()`?
 
+    43
+
 b) What is the value returned by the method call `bert.charAt(12)`?
 
+    t
+
 c) Write an expression that refers to the letter C in the string referred to by `bert`.
+    
+    ~~~java
+    System.out.println(bert.charAt(21));
+    ~~~
 
 # Programming exercise:
 Create a program that determines if one string is an anagram of another.
